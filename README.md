@@ -3,6 +3,15 @@ GIMP PLUG-INS FOR RESTORING FADED SLIDES AND PRINTS
 NOTE - The original author, Geoff Daniell, has given me (stongey) permission to publish
 this repository on GitHub in his name. Below is Geoff's original Read Me text.
 
+-----
+
+A retirement project was scanning all my old colour slides and it turned out that many of the colours had deteriorated over the years. After spending a whole wet afternoon trying to improve them with image processing software it seemed that the best result was using the 'AUTO' button. Since I used to work on image processing (but not this sort) I was sure I could do better than an 'AUTO' button. The result is:
+
+
+| ![Deteriorated Original](http://www.lionhouse.plus.com/original7.jpg) | ![Restored using my algorithm](http://www.lionhouse.plus.com/restored7.jpg) |
+| :---         | :---         |
+| Deteriorated Original | Restored using my algorithm |
+
 
 Some years ago I released a GIMP plug-in for automatically restoring scanned 
 slides or prints that had deteriorated with age.  This work is described in 
