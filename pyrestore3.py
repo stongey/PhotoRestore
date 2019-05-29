@@ -493,7 +493,7 @@ filelist=os.listdir(directory)
 jpegs=[]; JPEGS=[]; tiffs=[]; TIFFS=[]
 for File in filelist:
     if File.find(".jpg")>0:  jpegs.append(File)
-    if File.find(".JPG")>0:  JPGES.append(File)
+    if File.find(".JPG")>0:  JPEGS.append(File)
     if File.find(".tiff")>0: tiffs.append(File)
     if File.find(".TIFF")>0: TIFFS.append(File)
 
