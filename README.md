@@ -1,5 +1,9 @@
 GIMP PLUG-INS FOR RESTORING FADED SLIDES AND PRINTS
 
+NOTE - The original author, Geoff Daniell, has given me permission to publish
+this repository on GitHub in his name.
+
+
 Some years ago I released a GIMP plug-in for automatically restoring scanned 
 slides or prints that had deteriorated with age.  This work is described in 
 the file "restore1.pdf" and the file Restore1.py is the corresponding plug-in, 
@@ -29,7 +33,7 @@ batch_restore versions are similar but operate on all the photographs in a
 directory.  The results are put in sub-directory "restored", which must exist.
 
 To use these plug-ins copy them to your local directory ./gimp-2.x/plug-ins.
-You may need to change the permissions to make them exectuable.  The
+You may need to change the permissions to make them executable.  The
 plug-ins will be automatically loaded when you start gimp and they appear on 
 the menus under "restore" and "filters"; information is also loaded into the
 plug-in database.  They also work on a Mac running OSX except that it is
