@@ -3,6 +3,9 @@ GIMP PLUG-INS FOR RESTORING FADED SLIDES AND PRINTS
 NOTE - The original author, Geoff Daniell, has given me (stongey) permission to publish
 this repository on GitHub in his name. Below is Geoff's original Read Me text.
 
+Tested on GIMP 2.8 on a Mac. We will be working on testing with GIMP 2.10, other platforms, and Python 3 coming up.
+Your experience may vary. Please report issues. 
+
 -----
 
 A retirement project was scanning all my old colour slides and it turned out that many of the colours had deteriorated over the years. After spending a whole wet afternoon trying to improve them with image processing software it seemed that the best result was using the 'AUTO' button. Since I used to work on image processing (but not this sort) I was sure I could do better than an 'AUTO' button. The result is:
