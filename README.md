@@ -1,4 +1,4 @@
-GIMP PLUG-INS FOR RESTORING FADED SLIDES AND PRINTS
+PYTHON SCRIPTS AND GIMP PLUG-INS FOR RESTORING FADED SLIDES AND PRINTS
 
 NOTE - The original author, Geoff Daniell, has given me (stongey) permission to publish
 this repository on GitHub in his name. Below is Geoff's original Read Me text.
