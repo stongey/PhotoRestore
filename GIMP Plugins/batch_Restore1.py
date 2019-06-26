@@ -1,8 +1,44 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-from gimpfu import *
+"""Restore faded slides.
+
+Restores scanned slides that have deteriorated with age.
+Estimates the loss of dyes in the emulsion and restores the original values.
+The Degree of Restoration parameter adjusts the contrast and a yellow shift seems to improve the results.
+The side-absorption correction can be left as additional layers
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <http://www.gnu.org/licenses/>.
+"""
+
+__author__ = "Geoff Daniell"
+__contact__ = "geoff@lionhouse.plus.com"
+__copyright__ = "Copyright 2008, Geoff Daniell"
+__credits__ = ["Geoff Daniell", "Marc St. Onge"]
+__deprecated__ = False
+__email__ = "stongey@gmail.com"
+__license__ = "GPLv3"
+__maintainer__ = "Marc St. Onge"
+__status__ = "Development"
+__version__ = "0.0.1"
+
+
+# standard library imports
 from math import *
 from os import path
+
+# 3rd party package imports
+from gimpfu import *
 
 
 def colourmap(image, alpha, m, top, bot):
